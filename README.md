@@ -8,27 +8,19 @@
 
 We use the API Connector to make **outgoing** connections to external applications and use it as a data source or trigger actions.&#x20;
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-
+[https://www.google.com](https://www.google.com)
 
 ## Want to jump right in?
 
 Feeling like an eager beaver? Jump in to the quick start guide and start building:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+[https://www.gitbook.io](https://www.gitbook.io)
 
 ## Manual references
 
 Our manual includes extended information about our API’s features and how to use them. Got questions? Drop [Maria Herschel](http://127.0.0.1:5000/u/PhUGodIRURMKrXxd4gJE1B6atPu2 "mention") a line on Slack :sparkles:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+[https://www.gitbook.io](https://www.gitbook.io)
 
 <details>
 
