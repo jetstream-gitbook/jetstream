@@ -10,6 +10,10 @@
 [link-example.json](.gitbook/assets/link-example.json)
 {% endswagger %}
 
+{% swagger src=".gitbook/assets/folder.json" path="/2.0/users/{username}" method="get" %}
+[folder.json](.gitbook/assets/folder.json)
+{% endswagger %}
+
 \### The API Connector
 
 We use the API Connector to make **outgoing** connections to external applications and use it as a data source or trigger actions.
