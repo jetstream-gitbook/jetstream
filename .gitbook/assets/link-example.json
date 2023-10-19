@@ -20,7 +20,7 @@
         ],
         "responses": {
           "200": {
-            "description": "The User",
+            "description": "The Vuser",
             "content": {
               "application/json": {
                 "schema": {
