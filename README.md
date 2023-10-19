@@ -6,28 +6,8 @@
 
 {% file src=".gitbook/assets/folder.json" %}
 
-{% swagger src=".gitbook/assets/folder.json" path="/2.0/users/{username}" method="get" %}
-[folder.json](.gitbook/assets/folder.json)
-{% endswagger %}
-
-{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}" method="get" %}
-[folder.json](.gitbook/assets/folder.json)
-{% endswagger %}
-
-{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}" method="get" %}
-[folder.json](.gitbook/assets/folder.json)
-{% endswagger %}
-
-{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}/pullrequests" method="get" %}
-[folder.json](.gitbook/assets/folder.json)
-{% endswagger %}
-
-{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}/pullrequests/{pid}" method="get" %}
-[folder.json](.gitbook/assets/folder.json)
-{% endswagger %}
-
-{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}/pullrequests/{pid}/merge" method="post" %}
-[folder.json](.gitbook/assets/folder.json)
+{% swagger src=".gitbook/assets/link-example.json" path="/2.0/users/{username}" method="get" %}
+[link-example.json](.gitbook/assets/link-example.json)
 {% endswagger %}
 
 \### The API Connector
