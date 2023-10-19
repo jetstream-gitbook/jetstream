@@ -2,12 +2,37 @@
 
 ## Welcome to the JetStream API
 
-<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>The Data API</strong></td><td>The Data API allows other systems to search for, read, create, modify and delete data in your application’s database via a RESTful interface.</td><td><a href="broken-reference">Broken file</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>The Workflow API</strong></td><td>The Workflow API allows external applications to execute workflows in your JetStream app via a RESTful interface.</td><td><a href="broken-reference">Broken file</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>The Data API</strong></td><td>The Data API allows other systems to search for, read, create, modify and delete data in your application’s database via a RESTful interface.</td><td></td><td><a href="broken-reference/">broken-reference</a></td></tr><tr><td><strong>The Workflow API</strong></td><td>The Workflow API allows external applications to execute workflows in your JetStream app via a RESTful interface.</td><td></td><td><a href="broken-reference/">broken-reference</a></td></tr></tbody></table>
 
 {% file src=".gitbook/assets/folder.json" %}
-### The API Connector
 
-We use the API Connector to make **outgoing** connections to external applications and use it as a data source or trigger actions.&#x20;
+{% swagger src=".gitbook/assets/folder.json" path="/2.0/users/{username}" method="get" %}
+[folder.json](.gitbook/assets/folder.json)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}" method="get" %}
+[folder.json](.gitbook/assets/folder.json)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}" method="get" %}
+[folder.json](.gitbook/assets/folder.json)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}/pullrequests" method="get" %}
+[folder.json](.gitbook/assets/folder.json)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}/pullrequests/{pid}" method="get" %}
+[folder.json](.gitbook/assets/folder.json)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/folder.json" path="/2.0/repositories/{username}/{slug}/pullrequests/{pid}/merge" method="post" %}
+[folder.json](.gitbook/assets/folder.json)
+{% endswagger %}
+
+\### The API Connector
+
+We use the API Connector to make **outgoing** connections to external applications and use it as a data source or trigger actions.
 
 [https://www.google.com](https://www.google.com)
 
@@ -29,9 +54,9 @@ Our manual includes extended information about our API’s features and how to u
 
 This article series takes an in-depth look at what exactly an API is and how you can both set up an API in JetStream and connect to external APIs in different ways.
 
-Article: [Introduction to APIs](broken-reference)\
+Article: [Introduction to APIs](broken-reference/)\
 Video: [Introduction to APIs](https://www.youtube.com/watch?v=nO8PSqeJaWk\&t=745s)\
-Article: [What is a RESTful API?](broken-reference)
+Article: [What is a RESTful API?](broken-reference/)
 
 </details>
 
@@ -41,21 +66,20 @@ Article: [What is a RESTful API?](broken-reference)
 
 Authentication is the process of identifying **who** the client is in order to determine what they have access to.\
 \
-Article series: [The JetStream API and authentication](broken-reference)\
+Article series: [The JetStream API and authentication](broken-reference/)\
 \
 \
 **Authentication types**\
 The JetStream API lets clients authenticate in different ways:\
 \
-Article: [Accessing the JetStream API without authentication](broken-reference)\
-Article: [Accessing the JetStream API authenticated as a User](broken-reference)\
-Article: [Accessing the JetStream API authenticated as an admin](broken-reference)\
-
+Article: [Accessing the JetStream API without authentication](broken-reference/)\
+Article: [Accessing the JetStream API authenticated as a User](broken-reference/)\
+Article: [Accessing the JetStream API authenticated as an admin](broken-reference/)\\
 
 **How to set up authentication in the external system**\
 The JetStream uses the bearer token method to authenticate clients.
 
-Article: [How to set up authentication in an external app](broken-reference)
+Article: [How to set up authentication in an external app](broken-reference/)
 
 </details>
 
@@ -65,7 +89,7 @@ Article: [How to set up authentication in an external app](broken-reference)
 
 The Data API lets you set up an API in your JetStream application that accepts **incoming** **requests** to search for, read, create, edit and delete entries in your database.\
 \
-Article series: [The Data API](broken-reference)
+Article series: [The Data API](broken-reference/)
 
 </details>
 
@@ -75,7 +99,7 @@ Article series: [The Data API](broken-reference)
 
 The Data API lets you set up an API in your JetStream application that accepts **incoming** **requests** to trigger workflows.\
 \
-Article series: [The Workflow API](broken-reference)
+Article series: [The Workflow API](broken-reference/)
 
 </details>
 
@@ -85,6 +109,6 @@ Article series: [The Workflow API](broken-reference)
 
 The API Connector lets you connect to external RESTful APIs to trigger workflows or to use as a data source.\
 \
-Article series: [The API Connector](broken-reference)
+Article series: [The API Connector](broken-reference/)
 
 </details>
