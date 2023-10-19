@@ -4,6 +4,7 @@
 
 <table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>The Data API</strong></td><td>The Data API allows other systems to search for, read, create, modify and delete data in your application’s database via a RESTful interface.</td><td><a href="broken-reference">Broken file</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>The Workflow API</strong></td><td>The Workflow API allows external applications to execute workflows in your JetStream app via a RESTful interface.</td><td><a href="broken-reference">Broken file</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
+{% file src=".gitbook/assets/folder.json" %}
 ### The API Connector
 
 We use the API Connector to make **outgoing** connections to external applications and use it as a data source or trigger actions.&#x20;
