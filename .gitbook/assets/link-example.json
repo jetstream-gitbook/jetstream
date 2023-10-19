@@ -5,7 +5,7 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/2.0/vusers/{username}": {
+    "/2.1/users/{username}": {
       "get": {
         "operationId": "getUserByName",
         "parameters": [
@@ -24,7 +24,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/vuser"
+                  "$ref": "#/components/schemas/user"
                 }
               }
             },
