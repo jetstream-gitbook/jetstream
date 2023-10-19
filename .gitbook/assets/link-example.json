@@ -5,7 +5,7 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/2.0/vibusers/{username}": {
+    "/2.0/users/{username}": {
       "get": {
         "operationId": "getUserByName",
         "parameters": [
